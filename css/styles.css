@@ -295,11 +295,11 @@ img {
 
 /* Чим ми займаємося */
 
-.section-work {
+.work {
   padding-top: 0;
 }
 
-.section-work .section-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -308,16 +308,16 @@ img {
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
 
-.list-item-work {
+.work__item {
   position: relative;
 }
 
-.subtitle-work {
+.work__subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,11 +337,11 @@ img {
 
 /* Наша команда */
 
-.section-team {
+.team {
   background-color: var(--light-bg-cl);
 }
 
-.section-team .section-title {
+.team .team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -350,12 +350,12 @@ img {
   margin-bottom: 50px;
 }
 
-.team-list {
+.team__list {
   display: flex;
   gap: 30px;
 }
 
-.team-item {
+.team__item {
   background: var(--white-bg-cl);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -363,12 +363,12 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-name-container {
+.card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.section-team .team-name {
+.card__name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -378,7 +378,7 @@ img {
   margin-bottom: 10px;
 }
 
-.section-team .subtitle {
+.card__subtitle {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -388,13 +388,13 @@ img {
   margin-bottom: 16px;
 }
 
-.socials {
+.card__socials {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
-.socials-link {
+.card__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,19 +412,19 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-icon {
+.card__icon {
   fill: currentColor;
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.card__link:hover,
+.card__link:focus {
   color: var(--white-bg-cl);
   background-color: var(--accent-bg-cl);
 }
 
 /* Постійні клієнти */
 
-.section-clients .section-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -433,7 +433,7 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   gap: 30px;
 
@@ -441,7 +441,7 @@ img {
   margin-left: auto;
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,12 +460,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   color: var(--accent-txt-cl);
   border: 1px solid var(--accent-bg-cl);
 }
