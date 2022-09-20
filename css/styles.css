@@ -527,6 +527,12 @@ img {
   color: var(--white-txt-cl-60);
 }
 
+.contacts-list .link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-txt-cl);
